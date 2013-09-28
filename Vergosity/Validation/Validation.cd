@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Vergosity.Validation.Rule">
+    <Position X="11" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RulePolicy">
+    <Position X="9" Y="1.25" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Result" Type="Vergosity.Validation.Result" FixedFromPoint="true">
+      <Path>
+        <Point X="12.25" Y="4.003" />
+        <Point X="13.25" Y="4.003" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAEAAAABAwACAQEBAgAAAQAAAAEAAAAABAIIAQAACA=</HashCode>
+      <FileName>Validation\RulePolicy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RenderType" />
+      <Property Name="Result" />
+      <Property Name="Severity" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Vergosity.Validation.RuleComposite">
+    <Position X="8.5" Y="5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AggAAAIAAAAQAAAIABAAAAAAAAAAAAAIABIAABEAAAA=</HashCode>
+      <FileName>Validation\RuleComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rules" />
+      <Property Name="ResultDetails" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleList" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleContextBase" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.25" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgkGAAIABBAACAAAAIgIAAAAiAIAAAgAAAIAAAEAAAg=</HashCode>
+      <FileName>Validation\ValidationContextBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Results" />
+      <Property Name="Rules" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Vergosity.Validation.Result">
+    <Position X="13.25" Y="3.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAACAAAAAgAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+      <FileName>Validation\Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Results">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\Results.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.MaxValue&lt;T&gt;" Collapsed="true">
+    <Position X="12" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABBAAAAAABA=</HashCode>
+      <FileName>Validation\Rules\MaxValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.MinValue&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABBAAAAAABA=</HashCode>
+      <FileName>Validation\Rules\MinValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.Range&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\Range.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.AreEqual" Collapsed="true">
+    <Position X="11.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>Validation\Rules\AreEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.StringMatchesExactly" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABBAAAAAABA=</HashCode>
+      <FileName>Validation\Rules\StringMatchesExactly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.AreNotEqual" Collapsed="true">
+    <Position X="18.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAABAAAA=</HashCode>
+      <FileName>Validation\Rules\AreNotEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.IsFalse" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\IsFalse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.IsNotNullRule" Collapsed="true">
+    <Position X="14" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\IsNotNullRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.IsNull" Collapsed="true">
+    <Position X="16.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\IsNull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.IsTrue" Collapsed="true">
+    <Position X="12.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\IsTrue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.RegularExpression" Collapsed="true">
+    <Position X="18.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAABAAAAAAAgA=</HashCode>
+      <FileName>Validation\Rules\RegularExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.StringIsNotEmptySpace" Collapsed="true">
+    <Position X="16.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\StringIsNotEmptySpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.StringIsNotNullEmptyRange" Collapsed="true">
+    <Position X="8.5" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAQAAAAAAAAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>Validation\Rules\StringIsNotNullEmptyRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.Rules.StringMatchesCaseInsensitive" Collapsed="true">
+    <Position X="14" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABBAAAAAABA=</HashCode>
+      <FileName>Validation\Rules\StringMatchesCaseInsensitive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleContext">
+    <Position X="2.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Validation\ValidationContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Vergosity.Validation.IValidationContext">
+    <Position X="6.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\IValidationContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Vergosity.Validation.IRuleComponent">
+    <Position X="15.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\IRulePolicy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Vergosity.Validation.Severity">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Validation\Severity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Vergosity.Validation.RenderType">
+    <Position X="13.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Validation\RenderType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

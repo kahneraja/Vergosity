@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BuildMotionLicenseNotFound" xml:space="preserve">
+    <value>The license for the Vergosity framework cannot be found. Make sure a valid license is configured in the buildmotion.lic file. This file should be located in the output directory of the application.</value>
+    <comment>The exception message text for a BuildMotionLicenseNotFound exception. </comment>
+  </data>
+  <data name="ExpiredBuildMotionLicense" xml:space="preserve">
+    <value>The Build Motion license has expired.</value>
+    <comment>The exception message text for an ExpiredBuildMotionLicense exception.</comment>
+  </data>
+  <data name="PublicKey" xml:space="preserve">
+    <value>&lt;RSAKeyValue&gt;&lt;Modulus&gt;1+qaaVNx5O72U6jj+KGjrX3ENGDyq0bXsAOuHdEWtS2sheBkUdTHzgY+VX1CXrLajZ5p8XtcIn8As4Qky++l2sRJIfXAzljU6M7Oam/Im1T4dNH9XAGc2nztBsvIDXmuTJ9oyow4/ySTsOjA8he5vG07yB4tCgk8RE/8+D54KK6/cxJPfDJ1H84YiPGuoo3Lc5RU/AwsqWcTEqrBTuCOE8ysdzZueFcNFYRSnrZ9G4BUJbr80SoAH6C3ULTiH//zVSls9B4iZez6aVFQDX7BUgMdD/vqD0Q/NAJXPytCRIqm6/RPPp48sX/TzrsTtJLCZFvibHektjL5aQNwaW8mb2WJbEvfGZCCP9JbK+XZDXhIUQ+wF15d5IFrAwD/XB8xfsX1jD6jZ25ZfVPnid6km6tnCNSwIeFxIzbrxkr1SSsKqQ8JB1E8MhC0yTjo4FaeDlIRyYChPdbEPbh4vgP6qa558iIQ96sEW12h5CRAXR/IT1y7CNd2Z8ex6C6xhUg5yEYR7lmuMrMKg7mChKDH6nk8jmIsG/sa5dEB8+H2mARgjKUQ8ukyaQv/wPx5IxjpfEeLG8nWNMI5WdhgCJUZKJK9P8roinnrg99zfq1LLPIeDJt12SF2+jMHEQ38ScgyS+O3AdGhYaDHp9hhTYfuCG/JiRZVK2EEIirfIIDu0yc=&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</value>
+    <comment>Use this key to assert the validation of the Build Motion Framework license.</comment>
+  </data>
+  <data name="licenseName" xml:space="preserve">
+    <value>BuildMotion.lic</value>
+    <comment>The name  of the build motion license.</comment>
+  </data>
+  <data name="UnexpectedActionException" xml:space="preserve">
+    <value>Unexpected business action exception.</value>
+    <comment>An unexpected exception occured. </comment>
+  </data>
+  <data name="BuildMotionLicense" xml:space="preserve">
+    <value>BuildMotion.lic</value>
+    <comment>BuildMotionLicenseTemplateLic description</comment>
+  </data>
+  <data name="LicenseSectionGroupName" xml:space="preserve">
+    <value>Vergosity.Configuration</value>
+    <comment>This is the name of the license configuration section. </comment>
+  </data>
+  <data name="LicenseConfigurationMessage" xml:space="preserve">
+    <value>There was an error retrieving the specified license information. </value>
+    <comment>Use to indicate that the license information could not be converted to a comparison byte[] array.</comment>
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>The license [{0}] has expired on [{1}]. The application has exceeded the use of the license Expiration Date in the BuildMotion.lic file. Please renew your BuildMotion license or update the .lic file with updated license information.</value>
+    <comment>Use to provide license expiration information.</comment>
+  </data>
+  <data name="InvalidComponentConfigurationMessage" xml:space="preserve">
+    <value>The component configuration for the license is not valid. Cannot validate license with missing or invalid information. Please confirm that the license is configured.</value>
+    <comment>Use to indicate the specified component is not valid.</comment>
+  </data>
+  <data name="InvalidComponentLicenseMessage" xml:space="preserve">
+    <value>The {0} license information is not valid for the licensee {1} at {2}.</value>
+    <comment>Use to indicate the specified component is not valid.</comment>
+  </data>
+  <data name="InvalidLicenseConfigurationMessage" xml:space="preserve">
+    <value>The license configuration for the license is not valid. Cannot validate license with missing or invalid information. Please confirm that the license is configured. If the license information was modified, the license may be in an invalid state - do not modify the information in the license file.</value>
+    <comment>Use to indicate the specified license is not valid - due to missing or invalid configuration data.</comment>
+  </data>
+  <data name="UnexpectedLicenseException" xml:space="preserve">
+    <value>Unexpected license exception.</value>
+    <comment>The Build Motion license is invalid or not configured. Please make sure the license is in the ouput directory of the application (bin, bin\debug, or bin\release).</comment>
+  </data>
+  <data name="LicenseSectionGroupNotFound" xml:space="preserve">
+    <value>Could not find or load the LicenseSectionGroupName [BuildMotion.Configuration]. </value>
+  </data>
+</root>

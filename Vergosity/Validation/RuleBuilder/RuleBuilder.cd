@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Vergosity.Validation.RuleBuilder.Builders">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\Builders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.RuleBuilderBase">
+    <Position X="1.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\RuleBuilderBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rules" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.RuleBuilderDirector">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAgAAAAAAQAAAAEAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\RuleBuilderDirector.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="builder" />
+      <Field Name="builders" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.RuleBuilderFactory">
+    <Position X="6.25" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgIAAAIAAAYAAAAAAAAACIAAAACEAAAAAAAABAg=</HashCode>
+      <FileName>Validation\RuleBuilder\RuleBuilderFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rules" />
+      <Property Name="BuilderSource" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.RuleBuilderSource">
+    <Position X="11.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>Validation\RuleBuilder\RuleBuilderSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleList">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.ActionFieldRuleBuilder">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\ActionFieldRuleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.ActionObjectRuleBuilder">
+    <Position X="1" Y="4" Width="2" />
+    <InheritanceLine Type="Vergosity.Validation.RuleBuilder.RuleBuilderBase" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="2.942" />
+        <Point X="2.25" Y="3.2" />
+        <Point X="2.5" Y="3.2" />
+        <Point X="2.5" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\ActionObjectRuleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.ActionPropertyRuleBuilder">
+    <Position X="2" Y="4.5" Width="2" />
+    <InheritanceLine Type="Vergosity.Validation.RuleBuilder.RuleBuilderBase" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="2.942" />
+        <Point X="2.25" Y="3.2" />
+        <Point X="3.438" Y="3.2" />
+        <Point X="3.438" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\ActionPropertyRuleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.FieldRuleFactory">
+    <Position X="5.75" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\FieldRuleFactory.cs</FileName>
+      <NewMemberFileName>Validation\RuleBuilder\FieldRulefactory.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.PropertyRuleFactory">
+    <Position X="6.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\PropertyRuleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.ActionRuleFactory">
+    <Position X="7.5" Y="6.5" Width="2.5" />
+    <InheritanceLine Type="Vergosity.Validation.RuleBuilder.RuleBuilderFactory" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="5.395" />
+        <Point X="7.5" Y="5.7" />
+        <Point X="9.25" Y="5.7" />
+        <Point X="9.25" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\ActionRuleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.FieldRuleSource">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\FieldRuleSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.ActionRuleSource">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="Vergosity.Validation.RuleBuilder.RuleBuilderSource" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="4.988" />
+        <Point X="12.25" Y="5.2" />
+        <Point X="12.438" Y="5.2" />
+        <Point X="12.438" Y="5.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\ActionRuleSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vergosity.Validation.RuleBuilder.PropertyRuleSource">
+    <Position X="12" Y="6.25" Width="1.75" />
+    <InheritanceLine Type="Vergosity.Validation.RuleBuilder.RuleBuilderSource" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="4.988" />
+        <Point X="12.25" Y="5.2" />
+        <Point X="13.312" Y="5.2" />
+        <Point X="13.312" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RuleBuilder\PropertyRuleSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
